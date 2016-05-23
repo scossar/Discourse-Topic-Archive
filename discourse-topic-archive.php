@@ -63,7 +63,7 @@ class Archive_Discourse_Topic {
 
   function get_json() {
     $url = $_GET['url'];
-    $topic_json = file_get_contents( $url );
+    $topic_json =  file_get_contents( $url );
     echo $topic_json;
     wp_die();
   }
