@@ -1,6 +1,7 @@
 # Discourse Topic Archive
 
-**note:** This is a neat plugin, but it's using the jQuery `append()` method to add html strings from an untrusted source to the document. There is a better way to do it. For the moment I have commented out `line:145` of `wp-discourse-topic.js`. I'll update it soon.
+**note:** This is a neat plugin, but it's using the jQuery `append()` method to add html strings from an untrusted source to the document.
+There is a better way to do it. For the moment I have commented out `line:145` of `wp-discourse-topic.js`. I'll update it soon.
 
 Saves a Discourse topic as a WordPress post
 
